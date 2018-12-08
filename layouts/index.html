@@ -27,9 +27,27 @@
   </div>
 </div>
 
+
+
+<div class="container pt-5 pb-5 pt-md-7 ">
+  <div class="row justify-content-center">
+    <div class="col-12">
+      <h2 class="title-3 text-dark mb-4">Who we've worked with</h2>
+    </div>
+    {{ range .Site.Data.features }}
+    <div class="col-12 col-md-6 col-lg-2 mb-2">
+      <div class="feature">
+        {{ if .image }}<div class="feature-image"><img alt="{{ .title }} logo" src="{{ .image }}" /></div> {{ end }}
+
+      </div>
+    </div>
+    {{end}}
+  </div>
+</div>
+
 {{ $services := where (where .Site.RegularPages "Type" "services") ".Params.featured" true }}
 {{if gt (len $services) 0}}
-<div class="container pt-8 pt-md-10">
+<div class="container pt-8 pt-md-5 pb-md-7">
   <div class="row justify-content-start">
     <div class="col-12">
       <h2 class="title-3 text-dark mb-3">Our Services</h2>
@@ -46,23 +64,6 @@
   </div>
 </div>
 {{end}}
-
-<div class="container pt-5 pb-5 pt-md-7 pb-md-7">
-  <div class="row justify-content-center">
-    <div class="col-12">
-      <h2 class="title-3 text-dark mb-4">Our Features</h2>
-    </div>
-    {{ range .Site.Data.features }}
-    <div class="col-12 col-md-6 col-lg-4 mb-2">
-      <div class="feature">
-        {{ if .image }}<div class="feature-image"><img alt="{{ .title }} logo" src="{{ .image }}" /></div> {{ end }}
-        <h2 class="feature-title">{{ .title }}</h2>
-        <div class="feature-content">{{ .description }}</div>
-      </div>
-    </div>
-    {{end}}
-  </div>
-</div>
 
 {{ end }}
 
