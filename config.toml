@@ -1,3 +1,27 @@
 baseURL = "/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "Hugo Serif"
+theme = "hugo-serif-theme"
+
+[params]
+#google_analytics_id=""
+
+[[menu.main]]
+	name = "Services"
+	url = "/services/"
+    weight = 1
+
+[[menu.main]]
+    name = "Team"
+    url = "/team/"
+    weight = 2
+
+[[menu.main]]
+	name = "Testimonials"
+	url = "/testimonials/"
+	weight = 3
+
+[[menu.main]]
+    name = "Contact"
+    url = "/contact/"
+    weight = 4
