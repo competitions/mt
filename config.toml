@@ -1,6 +1,6 @@
 baseURL = "/"
 languageCode = "en-us"
-title = "Hugo Serif"
+title = "Marketing Trends"
 theme = "hugo-serif-theme"
 
 [params]
