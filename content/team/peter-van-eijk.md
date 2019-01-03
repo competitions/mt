@@ -1,14 +1,11 @@
 ---
-title: 'Tom Willis'
-date: 2018-11-19T10:47:58+10:00
-draft: false
-image: '/team/tom-willis.jpg'
-jobtitle: 'Director'
-email: 'tom@marketingtrends.com.au'
-linkedinurl: 'https://www.linkedin.com/'
+title: Tom Willis
+date: 2018-11-19 00:47:58 +0000
+image: "/team/tom-willis.jpg"
+jobtitle: Director
+email: tom@marketingtrends.com.au
+linkedinurl: https://www.linkedin.com/
 weight: 1
+
 ---
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Head instructor for six part-time digital marketing courses in addition to contributing to 60+ classes and workshops on all things digital marketing. I've been fortunate enough to run workshops for leading organisations as part of this including Commonwealth Bank, Uber, Warner Music and Sensis.  
