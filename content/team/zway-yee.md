@@ -1,10 +1,10 @@
 ---
-title: 'Sage Kirk'
+title: 'Zway Yee'
 date: 2018-11-19T10:47:58+10:00
 draft: false
 image: '/team/sage-kirk-485982-unsplash.jpg'
-jobtitle: 'Accountant'
-email: 'sage@test.com'
+jobtitle: 'Director'
+email: 'zway@marketingtrends.com.au'
 linkedinurl: ''
 weight: 2
 ---
