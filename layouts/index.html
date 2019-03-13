@@ -49,8 +49,16 @@
 {{if gt (len $services) 0}}
 <div class="container pt-8 pt-md-5 pb-md-7">
   <div class="row justify-content-start">
+      <div class="col-6 text-center">
+          "Working with Tom has taken my business to another level. 
+
+          The first few years of my new business I have been used to waiting around for customers to come to me but with Tom's help I constantly have high quality leads coming in and it has allowed me to explore the idea of expanding my business by doubling the floor space by taking over the shop next door. Couldn't have done it without him. 
+          
+          I've also wasted plenty of money on business coaches who promise the world and don't deliver so it was refreshing to deal with someone who specialises in actually getting customers through the door not all that fluff that business coaches take you through."
+          
+        </div>
     <div class="col-12">
-      <h2 class="title-3 text-dark mb-3">Our Services</h2>
+      <h2 class="title-3 text-dark mb-3">Testimonials</h2>
     </div>
     {{ $services := where (where .Site.RegularPages "Type" "services") ".Params.featured" true }}
     {{ range first 6 (sort $services ".Params.weight") }}
